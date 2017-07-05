@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Game Of Life Interactive - p5.js test</title>
+    
+    <!-- p5.js Script Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    
+    <!-- Source Code Files To Link -->
+    <script src="GOLWorld.js"></script>
+    <script src="main.js"></script>
+    
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+
+  </head>
+  <body>
+    <h1>Steven Eiselen presents: Conway's Game Of Life!</h1>
+    <h2>Instructions:</h2>
+    <ul>
+      <li>Enter the <strong>'p'</strong> key to pause/unpause the simulation</li>
+      <li>Enter the <strong>'r'</strong> key to reset the world with a new set of automatons</li>
+      <li>Enter the <strong>'c'</strong> key to remove (clear) all of the world's automatons</li>
+      <li>Enter the <strong>'m'</strong> key to change modes between wrap-around and solid room</li>
+      <li>Click on a cell with the <strong>left mouse button</strong> to toggle its on/off state 
+        <ul><li>Note: this works better when the simulation is paused!</li></ul>
+      </li>
+    </ul>
+    
+    <div id="P5Container"></div>
+  </body>
+</html>
